@@ -1,0 +1,28 @@
+{
+  "schema": "1.0-display-only",
+  "built_at_utc": "2026-10-05 23:47:37 UTC",
+  "source_database_sha256": "b1e6d296a9a3be01cae01b89865e03336b1dadc726c1686e26b092200872fe16",
+  "source_database_built_at": "2026-10-05 18:06:24 UTC",
+  "source_configuration": {
+    "BBS_release": 2026,
+    "CBC": {
+      "release_label": "20250205_full_export_count_years_1_125",
+      "raw_dir": "CBC_raw_download",
+      "history_workbook": "data/raw/cbc_history/count_history_1_125.xlsx",
+      "history_sheet": "1-125-CBC_Count_History_Report",
+      "download_page": "https://survey123.arcgis.com/share/7dc33b4fff77468a8bba855291f86527",
+      "full_export_url": "https://drive.google.com/file/d/1FN25NBG2rCdjtbU0gKE-zRW_HuXuNbSt/view",
+      "history_url": "https://docs.google.com/spreadsheets/d/1bIh5JAhWITPZBxE8fxbTbOUboRYGH9e8/export?format=xlsx",
+      "acquisition_mode": "user_supplied_download",
+      "schema_assumption": "four_report_format; future Audubon structure may be overhauled"
+    }
+  },
+  "crosswalk_sha256": "0b5507d668556bc39b14399899bbec9f581a377c815bb774357e0a6994ff5190",
+  "builder_sha256": "56e94a527d717e2710df836a39d9a9813af89de6a87e53b778c18524bf75765f",
+  "source_rows": [7562439, 9027302],
+  "records_without_comparison_year": [0, 140],
+  "representation": "Presence-only; positive count-day records, grouped by species/site/comparison-year; no counts, effort, inferred absence or count-week-only detections",
+  "rules": "January CBC belongs to previous year. Eligible and reported diagnostic presences remain distinguishable. Raw/harmonized labels are alternative views.",
+  "coordinates": "Source database representative site coordinates; source datum assumption and historical metadata limitations apply.",
+  "crosswalk_scope": "Harmonized crosswalk reviewed for lower48/DC and Canada; outside scope is exploratory."
+}

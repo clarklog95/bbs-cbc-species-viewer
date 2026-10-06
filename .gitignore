@@ -1,0 +1,6 @@
+.Rproj.user/
+.Rhistory
+.RData
+.R-library/
+*.png
+*.gif
