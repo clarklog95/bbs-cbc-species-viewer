@@ -4,6 +4,8 @@ Draft R Shiny application by Logan Clark. Explore reported bird detections
 through time with an alphabetical species selector, raw or harmonized names,
 year playback and GIF/PNG/site-year display-table downloads.
 
+[Open the hosted draft viewer](https://clarklog-bbs-cbc-species-viewer.share.connect.posit.cloud/).
+
 - BBS: 1966–2025; CBC: 1900–2024, based on the downloaded releases.
 - Reviewed map scope: lower 48 states/DC and Canada.
 - BBS detections are gold; CBC detections blue; surveyed sites gray.
