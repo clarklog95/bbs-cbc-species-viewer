@@ -8,6 +8,7 @@ year playback and GIF/PNG/site-year display-table downloads.
 
 - BBS: 1966–2025; CBC: 1900–2024, based on the downloaded releases.
 - Reviewed map scope: lower 48 states/DC and Canada.
+- The species menu uses detections within this scope for the selected program.
 - BBS detections are gold; CBC detections blue; surveyed sites gray.
 - Gray sites are source-reported surveys, not confirmed species absences.
 - Default colored points use count-eligible, positive count-day records.

@@ -13,7 +13,8 @@ viewer_extent <- function(profile) switch(profile,
 viewer_catalog <- function(metadata,name_mode,program_choice) {
   selected_mode <- name_mode
   x <- metadata$catalog[name_mode==selected_mode]
-  keep <- vapply(strsplit(x$programs,';',fixed=TRUE),function(p)any(p %in% viewer_programs(program_choice)),logical(1))
+  if(!'continental_programs' %in% names(x))stop('Rebuild viewer menu metadata for the supported geographic scope.')
+  keep <- vapply(strsplit(x$continental_programs,';',fixed=TRUE),function(p)any(p %in% viewer_programs(program_choice)),logical(1))
   x <- x[keep]
   x[order(tolower(species_name),species_name)]
 }

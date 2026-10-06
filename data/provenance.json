@@ -24,5 +24,7 @@
   "representation": "Presence-only; positive count-day records, grouped by species/site/comparison-year; no counts, effort, inferred absence or count-week-only detections",
   "rules": "January CBC belongs to previous year. Eligible and reported diagnostic presences remain distinguishable. Raw/harmonized labels are alternative views.",
   "coordinates": "Source database representative site coordinates; source datum assumption and historical metadata limitations apply.",
-  "crosswalk_scope": "Harmonized crosswalk reviewed for lower48/DC and Canada; outside scope is exploratory."
+  "crosswalk_scope": "Harmonized crosswalk reviewed for lower48/DC and Canada; outside scope is exploratory.",
+  "menu_scope": "Species with positive count-day display records in lower48/DC or Canada, by program; includes held records for the diagnostic view.",
+  "catalog_scope_builder_sha256": "6c96ffd0eec49ee3a80f87dc6860209a8fd8c9ec66b7aa66d1c35c011301e5e1"
 }
